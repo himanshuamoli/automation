@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="google"
+    errors="1" failures="0" hostname="" id="" package="google" skipped="0"
+    tests="1" time="0.2650" timestamp="Sun, 08 Oct 2017 16:59:47 GMT">
+  
+    <testcase name="Demo test Ts widget" classname="google" time="0.2650" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Google / Demo test Ts widget]:
+
+  TypeError: Cannot read property 'getCell' of null
+    at Object.Demo test Ts widget (/home/sage/Desktop/node practice/automation/tests/google.js:45:86)
+    at Module.call (/home/sage/Desktop/node practice/automation/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /home/sage/Desktop/node practice/automation/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/sage/Desktop/node practice/automation/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/sage/Desktop/node practice/automation/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/sage/Desktop/node practice/automation/node_modules/q/q.js:796:13)
+    at /home/sage/Desktop/node practice/automation/node_modules/q/q.js:556:49
+    at runSingle (/home/sage/Desktop/node practice/automation/node_modules/q/q.js:137:13)
+    at flush (/home/sage/Desktop/node practice/automation/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
